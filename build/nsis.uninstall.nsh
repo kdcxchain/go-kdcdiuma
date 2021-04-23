@@ -21,7 +21,7 @@ Section "Uninstall"
   SimpleFC::AdvRemoveRule "Gkdc outgoing peers (TCP:33960)"
   SimpleFC::AdvRemoveRule "Gkdc UDP discovery (UDP:33960)"
 
-  # Remove IPC endpoint (https://github.com/kdcdiumchain/EIPs/issues/147)
+  # Remove IPC endpoint (https://github.com/kdcxchain/EIPs/issues/147)
   ${un.EnvVarUpdate} $0 "ETHEREUM_SOCKET" "R" "HKLM" "\\.\pipe\gkdc.ipc"
 
   # Remove install directory from PATH

@@ -10,7 +10,7 @@ fi
 # Create fake Go workspace if it doesn't exist yet.
 workspace="$PWD/build/_workspace"
 root="$PWD"
-ethdir="$workspace/src/github.com/kdcdiumchain"
+ethdir="$workspace/src/github.com/kdcxchain"
 if [ ! -L "$ethdir/go-kdcdiuma" ]; then
     mkdir -p "$ethdir"
     cd "$ethdir"
